@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterActivity">
+
+
+    <FrameLayout
+        android:id="@+id/registrationFrame"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/pink_background">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/bold"
+            android:text="QuizForYou"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bold"
+        android:text="Registration"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/regETFirstName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Your First Name"
+        android:paddingStart="8dp"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/regETLastName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Your Last Name"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/regETEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Your Email"
+        android:textColor="@color/black"
+        android:paddingStart="8dp"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/regETPassword"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Your Password"
+        android:textColor="@color/black"
+        android:paddingStart="8dp"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/regETPassword2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/regular"
+        android:hint="Confirm Your Password"
+        android:textColor="@color/black"
+        android:paddingStart="8dp"
+        android:textColorHint="@color/grey" />
+
+    <CheckBox
+        android:id="@+id/terms"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="I agree the terms and conditions"
+        android:fontFamily="@font/regular"/>
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+    <TextView
+        android:id="@+id/alreadyHaveAnAccount"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I already have the account"
+        android:fontFamily="@font/regular"/>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable-v24/correct_option_border_bg.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable-v24/selected_option_border_bg.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable-v24/wrong_option_border_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/book_courses_education_learning_school_study_svgrepo_com.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/button_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/home_svgrepo_com.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/ic_baseline_agriculture_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/ic_baseline_devices_other_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/img_profile_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/login_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/message_box.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/message_mail_svgrepo_com.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/profile_svgrepo_com__1_.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/svg_email__1_.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/svg_gender.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/svg_mobile_number.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/svg_person.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/test_svgrepo_com.xml" value="0.3828125" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_base.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_messages.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_new_messages.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_splash.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_user_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/dialog_progress.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/fragment_orders.xml" value="0.33" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/fragment_products.xml" value="0.33" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/sent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/user_row_new_message.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/menu/dashboard_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

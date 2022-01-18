@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/home_svgrepo_com"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_products"
+        android:icon="@drawable/test_svgrepo_com"
+        android:title="@string/title_quiz" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/profile_svgrepo_com__1_"
+        android:title="@string/action_settings" />
+
+</menu>

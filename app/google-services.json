@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559709333690",
+    "project_id": "quizappforfinalexam",
+    "storage_bucket": "quizappforfinalexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559709333690:android:3b246a091897b17d007a83",
+        "android_client_info": {
+          "package_name": "com.example.agro_town"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559709333690-tip88iaa2fvlb0e4jtbl5hipn4bt5i69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwBIb29PPglqph9yUUAC7tTdnrPgnNu30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559709333690-tip88iaa2fvlb0e4jtbl5hipn4bt5i69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
