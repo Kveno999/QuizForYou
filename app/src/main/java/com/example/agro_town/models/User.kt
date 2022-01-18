@@ -12,7 +12,9 @@ class User (
     var image: String = "",
     val mobile: Long = 0,
     val gender: String = "",
-    val profileCompleted: Int = 0
+    val profileCompleted: Int = 0,
+// Added new item
+    var points: Int = 0
 
 ): Parcelable {
     constructor(firstName: String, email: String, id: String) : this() {

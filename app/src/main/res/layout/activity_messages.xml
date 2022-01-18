@@ -30,5 +30,16 @@
             android:text="Profile Name"
             android:fontFamily="@font/regular"
             android:textColor="@color/black"/>
+
+        <!-- Here i added tv for points -->
+        <TextView
+            android:id="@+id/textViewPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:text="Point"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

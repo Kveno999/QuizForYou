@@ -74,7 +74,7 @@
             android:gravity="center"
             android:padding="15dp"
             android:textColor="#7A8089"
-            android:textSize="18sp"
+            android:textSize="16sp"
             tools:text="One" />
 
         <TextView
@@ -90,7 +90,7 @@
             android:gravity="center"
             android:padding="15dp"
             android:textColor="#7A8089"
-            android:textSize="18sp"
+            android:textSize="16sp"
             tools:text="Two" />
 
         <TextView
@@ -106,7 +106,7 @@
             android:gravity="center"
             android:padding="15dp"
             android:textColor="#7A8089"
-            android:textSize="18sp"
+            android:textSize="16sp"
             tools:text="Three" />
 
         <TextView
@@ -122,7 +122,7 @@
             android:gravity="center"
             android:padding="15dp"
             android:textColor="#7A8089"
-            android:textSize="18sp"
+            android:textSize="16sp"
             tools:text="Four" />
 
         <Button

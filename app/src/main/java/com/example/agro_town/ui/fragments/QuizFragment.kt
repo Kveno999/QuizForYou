@@ -15,6 +15,9 @@ import com.example.agro_town.databinding.FragmentProductsBinding
 import com.example.agro_town.models.Constans
 import com.example.agro_town.models.Question
 import com.example.agro_town.models.User
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.fragment_products.*
 
 class QuizFragment : Fragment(), View.OnClickListener {
@@ -27,9 +30,11 @@ class QuizFragment : Fragment(), View.OnClickListener {
     private var mSelectedOptionPosition: Int = 0
     private var mCorrectAnswers: Int = 0
     private var mUserName = ""
+    private lateinit var mDbRef : DatabaseReference
     private var _binding: FragmentProductsBinding? = null
 
     private val binding get() = _binding!!
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -97,6 +102,13 @@ class QuizFragment : Fragment(), View.OnClickListener {
                         else -> {
                             // START
                             findNavController().navigate(QuizFragmentDirections.actionNavigationProductsToNavigationOrders(mUserName, mCorrectAnswers,mQuestionsList!!.size))
+                            // Here i tried to added correctAnswer points to database
+                            mDbRef = FirebaseDatabase.getInstance().reference
+                            val mAuth = FirebaseAuth.getInstance().currentUser?.uid
+                            mDbRef.child("user").child(mAuth.toString()).child("points").setValue(mCorrectAnswers)
+                            val mUser = User()
+                            mUser.points = mCorrectAnswers
+
                             //
                             return
                         }

@@ -1,5 +1,7 @@
 package com.example.agro_town.messages
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -40,6 +42,7 @@ class ChatActivity : AppCompatActivity() {
         receiverRoom = senderUid + receiverUid
 
         supportActionBar?.title = name
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#FF6200EE")))
 
 
         chatRecyclerView = findViewById(R.id.chatRecyclerView)
