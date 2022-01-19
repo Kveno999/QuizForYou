@@ -9,7 +9,7 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.example.agro_town.ui.fragments.HomeFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" >
+        tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_navigation_dashboard_to_navigation_products"
             app:destination="@id/navigation_products" />
@@ -19,7 +19,7 @@
         android:id="@+id/navigation_products"
         android:name="com.example.agro_town.ui.fragments.QuizFragment"
         android:label="@string/title_quiz"
-        tools:layout="@layout/fragment_products" >
+        tools:layout="@layout/fragment_quiz" >
         <action
             android:id="@+id/action_navigation_products_to_navigation_orders"
             app:destination="@id/navigation_orders" />
@@ -29,7 +29,7 @@
         android:id="@+id/navigation_orders"
         android:name="com.example.agro_town.ui.fragments.ResultFragment"
         android:label="@string/title_result"
-        tools:layout="@layout/fragment_orders" >
+        tools:layout="@layout/fragment_result" >
         <argument
             android:name="username"
             app:argType="string" />

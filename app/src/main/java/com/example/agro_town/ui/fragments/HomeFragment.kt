@@ -1,15 +1,16 @@
 package com.example.agro_town.ui.fragments
 
-import android.app.Dialog
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.example.agro_town.R
-import com.example.agro_town.databinding.FragmentDashboardBinding
+import com.example.agro_town.databinding.FragmentHomeBinding
 
 import com.example.agro_town.messages.MainActivityMessages
 import com.example.agro_town.models.User
@@ -17,7 +18,7 @@ import com.example.agro_town.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import kotlinx.android.synthetic.main.activity_messages.view.*
+import kotlinx.android.synthetic.main.activity_dashboard.*
 
 
 class HomeFragment : Fragment() {
@@ -34,14 +35,13 @@ class HomeFragment : Fragment() {
     }
 
     //private lateinit var dashboardViewModel: DashboardViewModel
-    private var _binding: FragmentDashboardBinding? = null
+    private var _binding: FragmentHomeBinding? = null
     private lateinit var mAuth: FirebaseAuth
     private lateinit var mDbRef: DatabaseReference
 
 
     private val binding get() = _binding!!
 
-    private lateinit var mProgressDialog: Dialog
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -50,7 +50,11 @@ class HomeFragment : Fragment() {
     ): View? {
         ///dashboardViewModel = ViewModelProvider(this).get(DashboardViewModel::class.java)
 
-        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        (activity as AppCompatActivity?)!!.supportActionBar!!.show()
+        (activity as AppCompatActivity?)!!.supportActionBar!!.title = "Chat"
+
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+
         val root: View = binding.root
 
 
@@ -58,7 +62,6 @@ class HomeFragment : Fragment() {
         val mFirebaseUser = mFirebaseAuth.currentUser
         mAuth = FirebaseAuth.getInstance()
         mDbRef = FirebaseDatabase.getInstance().reference
-        val mUser = User()
 
         binding.tvDescription.text = mFirebaseUser!!.email
         binding.btnStart.setOnClickListener{

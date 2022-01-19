@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.agro_town.databinding.FragmentOrdersBinding
+import com.example.agro_town.databinding.FragmentResultBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class ResultFragment : Fragment() {
@@ -17,7 +17,7 @@ class ResultFragment : Fragment() {
 
     private val args: ResultFragmentArgs by navArgs()
 
-    private var _binding: FragmentOrdersBinding? = null
+    private var _binding: FragmentResultBinding? = null
 
     private val binding get() = _binding!!
 
@@ -27,7 +27,7 @@ class ResultFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentOrdersBinding.inflate(inflater, container, false)
+        _binding = FragmentResultBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
 

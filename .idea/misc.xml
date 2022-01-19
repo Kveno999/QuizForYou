@@ -23,7 +23,7 @@
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/drawable/test_svgrepo_com.xml" value="0.3828125" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_base.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_chat.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
@@ -39,6 +39,7 @@
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/fragment_orders.xml" value="0.33" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/fragment_products.xml" value="0.33" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/sent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/toolbar_one.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/layout/user_row_new_message.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/kveni/Desktop/FinalProject/app/src/main/res/menu/dashboard_menu.xml" value="0.20520833333333333" />

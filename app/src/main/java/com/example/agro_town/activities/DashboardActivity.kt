@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.agro_town.R
 import com.example.agro_town.databinding.ActivityDashboardBinding
 
+
 class DashboardActivity : BaseActivity() {
 
     private lateinit var binding: ActivityDashboardBinding
@@ -19,6 +20,11 @@ class DashboardActivity : BaseActivity() {
 
         binding = ActivityDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+//        val toolbar = binding.toolbar
+//        setSupportActionBar(toolbar)
+        supportActionBar?.show()
+
 
 
         val navView: BottomNavigationView = binding.navView

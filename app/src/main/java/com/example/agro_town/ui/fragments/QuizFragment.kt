@@ -11,14 +11,18 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.agro_town.R
-import com.example.agro_town.databinding.FragmentProductsBinding
+import com.example.agro_town.databinding.FragmentQuizBinding
 import com.example.agro_town.models.Constans
 import com.example.agro_town.models.Question
 import com.example.agro_town.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import kotlinx.android.synthetic.main.fragment_products.*
+import kotlinx.android.synthetic.main.fragment_quiz.*
+import androidx.appcompat.app.AppCompatActivity
+
+
+
 
 class QuizFragment : Fragment(), View.OnClickListener {
 
@@ -31,7 +35,7 @@ class QuizFragment : Fragment(), View.OnClickListener {
     private var mCorrectAnswers: Int = 0
     private var mUserName = ""
     private lateinit var mDbRef : DatabaseReference
-    private var _binding: FragmentProductsBinding? = null
+    private var _binding: FragmentQuizBinding? = null
 
     private val binding get() = _binding!!
 
@@ -43,10 +47,9 @@ class QuizFragment : Fragment(), View.OnClickListener {
     ): View? {
         //homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
 
-        _binding = FragmentProductsBinding.inflate(inflater, container, false)
+        _binding = FragmentQuizBinding.inflate(inflater, container, false)
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
         val root: View = binding.root
-
-
 
         mQuestionsList = Constans.getQuestions()
 
